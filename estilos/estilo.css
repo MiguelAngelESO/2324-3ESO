@@ -1,0 +1,219 @@
+		* {
+		    margin: 0;
+		    padding: 0;
+		}
+
+         /*Esto es todo el codigo del estilo*/ 
+
+
+        /*Es el codigo de todo el contenido de la pagina web*/
+
+		body {
+		    width: 100%;
+		    background: #c5e9f8;
+		    font-family: verdana;
+
+		}
+
+
+        /*Codigo de la cabecera*/
+
+		.cabecera {
+
+		    margin-left: 5%;
+		    margin-bottom: 2%;
+		    text-align: center;
+		    color: rgb(153, 255, 153);
+		    background-color: #e78b8b;
+		    margin-bottom: 1%;
+
+		}
+         
+        /*Esto es el codigo del titulo, aquí esta detallado la posicion, color y tamaño*/
+
+		h1 {
+		    color: white;
+		    font-size: 30px;
+		    width: 50%;
+		    margin-left: 25%;
+		    margin-right: 25%;
+		    padding-top: 2%;
+		    padding-bottom: 2%;
+		    font-weight: bolder;
+            text-align: center;
+
+		}
+
+
+           /*Codigo de la tabla donde se detalla el diseño*/
+
+
+		table {
+		    text-align: justify;
+		   
+		    width: 90%;
+		    margin-left: 5%;
+		    margin-right: 5%;
+		}
+
+		td {
+		    text-align: center;
+		    border: #e78b8b solid 1px;
+		}
+
+		h3,
+		h2 {
+		    width: 100%;
+            text-align: center;
+		    color: rgb(53, 87, 236);
+		    text-align: center;
+		}
+
+
+		li {
+		    margin-bottom: 5%;
+		    margin-top: 5%;
+		    text-decoration: none;
+		}
+
+
+          /*Estos codigos sirven para dar color a los enlaces y que al tocarlos con el puntero, aumenten de tamaño*/
+
+
+		#uno {
+		    color: yellow;
+
+		}
+
+		#dos {
+		    color: green;
+
+		}
+
+		#tres {
+		    color: white;
+
+		}
+
+		#cuatro {
+		    color: red;
+
+		}
+
+		#cinco {
+		    color: purple;
+
+		}
+
+		#siete {
+		    color: rgb(59, 56, 59);
+
+		}
+
+		p {
+		    font-size: 20px;
+            margin-left: 2%;
+            margin-right: 2%;
+            color: rgb(53, 87, 236);
+
+		}
+
+
+
+		ul {
+		    list-style: none;
+		}
+
+
+		li {
+		    margin-bottom: 5%;
+		    margin-top: 5%;
+
+		}
+
+		a {
+
+		    font-weight: bold;
+		    text-decoration: none;
+		}
+
+		li:hover {
+		    font-size: 150%;
+		}
+
+
+        /*Es la posicion y tamaño exacto de las fotografias*/
+
+    img {
+		    width: 25%;
+		    text-align: center;
+            margin-top: 2%;
+            margin-bottom: 2%;
+
+
+		}
+
+        /*Es la posicion y tamaño exacto del video*/
+
+		video {
+		    width: 80%;
+		    text-align: center;
+		}
+
+		.pie {
+		    background-color: #bbb;
+
+		    color: #900;
+		    padding: 10px;
+		    text-align: center;
+		}
+        .container{
+            width: 90%;
+            margin-left: 5%;
+            margin-left: 5%;
+            display: grid;
+            grid-template-columns: 50% 50%;
+         
+              /*tamaño de las imagenes de la segunda pagina web*/
+
+        }
+        .ejecucion, .katherina, .tumbas{
+
+            width: 25%;
+            margin-left: 36.5%;
+            margin-right: 36.5%;
+            margin-bottom: 2%;
+        }
+
+        footer{
+            width: 50%;
+            margin-left: 25% ;
+            margin-right: 25%;
+            text-align: center;
+            color: rgb(226, 107, 107);
+            font-weight: bolder;
+        }
+
+         /*codigo con el tamaño, color y posicion del boton que te lleva de vuelta a la pagina principal*/
+
+        button{
+            width: 30%;
+            margin-left: 35%;
+            margin-right: 35%;
+            text-align: center;
+            font-weight: bolder;
+            color: #900;
+            background-color: #eba6d4;
+            padding: 0.5%;
+            margin-bottom: 2%;
+        }
+        .formulario{
+            width: 50%;
+            margin-left: 25%;
+            margin-right: 25%;
+            margin-bottom: 5%;
+            text-align: center;
+        }
+
+       
+       

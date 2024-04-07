@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+  <meta charset="utf-8">
+
+
+
+  <title>Formulario de contacto</title>
+
+  <!--Esto es el formulario -->
+
+  <link rel="stylesheet" type="text/css" href="./estilos/estilo.css">
+</head>
+
+<body>
+  <a href="index.html">
+    <button>Ir a inicio, Enrique VIII</button>
+  </a>
+  <div class="formulario">
+    <form id="contact_form" action="archivo.php" method="POST" enctype="multipart/form-data">
+      <div class="row">
+        <label class="required" for="name">Introduzca su nombre:</label><br />
+        <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+        <span id="name_validation" class="error_message"></span>
+      </div>
+      <div class="row">
+        <label class="required" for="email">Introduzca su email:</label><br />
+        <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+        <span id="email_validation" class="error_message"></span>
+      </div>
+      <div class="row">
+        <label class="required" for="message">Escriba un mensaje:</label><br />
+        <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+        <span id="message_validation" class="error_message"></span>
+      </div>
+
+      <input id="submit_button" type="submit" value="Enviar" />
+    </form>
+
+
+
+  
+</body>
+
+</html>
